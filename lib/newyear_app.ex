@@ -74,7 +74,7 @@ defmodule NewyearApp do
             List.duplicate("<div></div>", rem(weekday + 5, 7))
           else
             []
-          end ++ ["<div class='day hover:bg-blue-700 cursor-pointer'>#{date.day}</div>"]
+          end ++ ["<div class='day hover:bg-blue-280 cursor-pointer'>#{date.day}</div>"]
         end) |> List.flatten() |> Enum.join("")}
       </div>
 
